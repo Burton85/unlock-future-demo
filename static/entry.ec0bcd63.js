@@ -6473,7 +6473,7 @@ function Ph() {
   var t;
   const e = (t = Ch().nuxt) == null ? void 0 : t.buildId;
   return (
-    (ar = $fetch(ro(`unlock-future-demo/builds/meta/${e}.json`))),
+    (ar = $fetch(ro(`unlock-future-demo/static/builds/meta/${e}.json`))),
     ar.then(n => {
       ga = ch(n.matcher);
     }),
