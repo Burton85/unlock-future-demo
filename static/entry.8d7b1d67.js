@@ -4937,7 +4937,7 @@ function Zl(e = {}) {
           (c.options.signal = g.signal);
       }
       try {
-        c.response = await t('/unluck-future-demo' + c.request, c.options);
+        c.response = await t('/unlock-future-demo' + c.request, c.options);
       } catch (g) {
         return (
           (c.error = g),
@@ -6458,7 +6458,7 @@ const mh = Symbol('layout-meta'),
       ? o.replace(e)
       : o.push(e);
   },
-  wh = { nuxt: { buildId: 'cfc3601e-a17f-46ef-abc4-89493691a238' } },
+  wh = { nuxt: { buildId: '44260d24-4fb8-4d5d-be85-86f1eefe30bf' } },
   Eh = uh(wh);
 function Ch() {
   const e = de();
@@ -8042,11 +8042,11 @@ const Oi = [
       redirect: void 0,
       component: () =>
         kt(
-          () => import('./Digital.8119b4cb.js'),
+          () => import('./Digital.dcc47716.js'),
           [
-            './Digital.8119b4cb.js',
-            './index.1e8416e4.js',
-            './book--disable.dccee17d.js'
+            './Digital.dcc47716.js',
+            './index.a42229d1.js',
+            './book--disable.419feed4.js'
           ],
           import.meta.url
         ).then(e => e.default || e)
@@ -8059,11 +8059,11 @@ const Oi = [
       redirect: void 0,
       component: () =>
         kt(
-          () => import('./Emperor.b29bfa33.js'),
+          () => import('./Emperor.845dfd5e.js'),
           [
-            './Emperor.b29bfa33.js',
-            './index.1e8416e4.js',
-            './book--disable.dccee17d.js'
+            './Emperor.845dfd5e.js',
+            './index.a42229d1.js',
+            './book--disable.419feed4.js'
           ],
           import.meta.url
         ).then(e => e.default || e)
@@ -8076,11 +8076,11 @@ const Oi = [
       redirect: void 0,
       component: () =>
         kt(
-          () => import('./Future.6a3013fd.js'),
+          () => import('./Future.c43a044f.js'),
           [
-            './Future.6a3013fd.js',
-            './index.1e8416e4.js',
-            './book--disable.dccee17d.js'
+            './Future.c43a044f.js',
+            './index.a42229d1.js',
+            './book--disable.419feed4.js'
           ],
           import.meta.url
         ).then(e => e.default || e)
@@ -8093,8 +8093,8 @@ const Oi = [
       redirect: void 0,
       component: () =>
         kt(
-          () => import('./home.ed927480.js'),
-          ['./home.ed927480.js', './index.1e8416e4.js'],
+          () => import('./home.f9b9e814.js'),
+          ['./home.f9b9e814.js', './index.a42229d1.js'],
           import.meta.url
         ).then(e => e.default || e)
     },
@@ -8106,11 +8106,11 @@ const Oi = [
       redirect: void 0,
       component: () =>
         kt(
-          () => import('./Sustain.830ee00e.js'),
+          () => import('./Sustain.b926e546.js'),
           [
-            './Sustain.830ee00e.js',
-            './index.1e8416e4.js',
-            './book--disable.dccee17d.js'
+            './Sustain.b926e546.js',
+            './index.a42229d1.js',
+            './book--disable.419feed4.js'
           ],
           import.meta.url
         ).then(e => e.default || e)
@@ -9251,15 +9251,15 @@ const Ug = {
         c = s
           ? ko(() =>
               kt(
-                () => import('./error-404.5afc18ec.js'),
-                ['./error-404.5afc18ec.js', './error-404.95c28eb4.css'],
+                () => import('./error-404.b6f605a7.js'),
+                ['./error-404.b6f605a7.js', './error-404.95c28eb4.css'],
                 import.meta.url
               ).then(f => f.default || f)
             )
           : ko(() =>
               kt(
-                () => import('./error-500.7abe4242.js'),
-                ['./error-500.7abe4242.js', './error-500.e798523c.css'],
+                () => import('./error-500.ae26eb54.js'),
+                ['./error-500.ae26eb54.js', './error-500.e798523c.css'],
                 import.meta.url
               ).then(f => f.default || f)
             );
