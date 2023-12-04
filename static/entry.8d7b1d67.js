@@ -4937,7 +4937,7 @@ function Zl(e = {}) {
           (c.options.signal = g.signal);
       }
       try {
-        c.response = await t('/unlock-future-demo' + c.request, c.options);
+        c.response = await t(c.request, c.options);
       } catch (g) {
         return (
           (c.error = g),
